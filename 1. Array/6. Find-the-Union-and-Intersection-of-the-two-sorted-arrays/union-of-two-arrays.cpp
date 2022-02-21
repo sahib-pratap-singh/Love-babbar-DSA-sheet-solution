@@ -13,3 +13,18 @@ class Solution{
         return unioncount.size();
     }
 };
+
+//Another method we can use is using hashmap
+//Time complexity: O(n+m)
+//Space complexity: O(n+m)
+
+//We can also use Sorting 
+//Sort both array and the search as we do using merge in merger sort
+//Time complexity: O(nlogn + mlogm)
+//Space complexity: O(1)
+
+//We can also use simple Vector
+//Store all elements of first array
+//For storing next array first check that element should not be present
+//Time complexity: O(n+m)
+//Space complexity: O(n+m)
